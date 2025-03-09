@@ -1,0 +1,77 @@
+.header{
+    z-index: 1000;
+}
+
+.img{
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.5)), url("../assets/img/How-Many-Web-Developers-in-the-World-1.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.frontend-img{
+    background-image: url("../assets/img/frontend.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.backend-img{
+    background-image: url("../assets/img/backend.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.dmax-img{
+    background-image: url("../assets/img/3dmax.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foun-front-img{
+    background-image: url("../assets/img/foundation.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.foundation{
+    background-image: url("../assets/img/backendfoundation.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.course-img{
+    background-image: url("../assets/img/savodxonlik.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wordpress-img{
+    background-image: url("../assets/img/noCoding.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.coding-img{
+    background-image: url("../assets/img/tizimlashtirish.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.portfolio swiper-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolio swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.portfolio swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+input::placeholder{
+    color: #999;
+}
